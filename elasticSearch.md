@@ -51,7 +51,6 @@ Aşağıda Elasticsearch’ün en önemli yapı taşlarını teknik ama anlaşı
 
 ### 3. Yakın Gerçek Zamanlılık (Near Real-Time, NRT)
 
-<img width="907" height="347" alt="Image" src="https://github.com/user-attachments/assets/41a91ae0-dc2e-4353-8b65-5ef28332ac99" />
 
 * **İndeksleme → Sorgu Süresi:** Elasticsearch neredeyse gerçek zamanlı çalışır. Yeni eklenen belgeler milisaniyeler içinde aranabilir hale gelir.
 * **Pratik Fayda:** Canlı log analizi, gerçek zamanlı dashboard ve arama önerisi gibi düşük gecikme gerektiren senaryolar için idealdir.
@@ -104,7 +103,7 @@ Bu yapı, Elasticsearch’ün yalnızca basit anahtar–değer aramaları değil
 
 ### 5. Elastic Stack Entegrasyonu (ELK Stack)
 
-<img width="1800" height="878" alt="Image" src="https://github.com/user-attachments/assets/6062b2cd-fc9d-4e99-992e-90af43a7146c" />
+<img width="907" height="347" alt="Image" src="https://github.com/user-attachments/assets/41a91ae0-dc2e-4353-8b65-5ef28332ac99" />
 
 * **Kibana:** Verilerin görselleştirilmesi ve dashboard oluşturma aracı.
 * **Logstash:** Farklı kaynaklardan gelen verilerin toplanıp işlenmesini sağlar.
@@ -215,8 +214,6 @@ Elasticsearch'ün Lucene üzerine getirdiği en önemli yeniliklerden biri **da�
 - Yük arttığında shard’lar diğer node’lara taşınarak veri dengesi sağlanır.
 
 ## 3. Metin Arama (Text Search) ve Analiz
-
-<img width="1418" height="1102" alt="Image" src="https://github.com/user-attachments/assets/13506651-2cff-4b10-ab94-5e63831a7b8b" />
 
 Elasticsearch’te **metin arama**, belgelerdeki metin alanlarının önceden işlenmesi ile mümkündür. Bu işleme süreci **analysis** (metin analizi) aşamasında gerçekleşir. Belgeler indekslenirken metinler bir **analyzer** tarafından analiz edilir ve sonuç, aramayı hızlandıracak veri yapılarında saklanır.
 
